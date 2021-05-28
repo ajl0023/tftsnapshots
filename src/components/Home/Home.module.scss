@@ -1,0 +1,20 @@
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.content {
+  z-index: 3;
+  .input-bar {
+    width: 500px;
+  }
+}
+.backdrop {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+}
