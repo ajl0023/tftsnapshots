@@ -1,3 +1,3 @@
 git add .
-git commit -m "inital commit"
+git commit -m "fixed errors"
 git push origin master

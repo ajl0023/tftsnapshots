@@ -161,8 +161,7 @@ const Match = (props) => {
     return arr;
   }, [rounds && rounds[currRound]]);
   const nextRound = (category) => {
-    console.log({
-      currRound,
+          currRound,
       rounds,
     });
     if (currRound >= rounds.length - 1) {

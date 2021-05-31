@@ -121,7 +121,6 @@ const RoundBar = (props) => {
   if (!stepper || !props.rounds || props.rounds.length < 1) {
     return null;
   }
-  console.log(stepper);
   activeStepRef.current = stepper.findIndex((item) => {
     return item.stage === props.rounds[props.currRound].round_type.stage;
   });
